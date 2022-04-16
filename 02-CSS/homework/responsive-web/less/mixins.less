@@ -1,1 +1,12 @@
 // Mixins acá
+.flex(@direcction,@pad-top:0rem,@pad-bot:0rem){
+    display: flex;
+    flex-direction: @direcction;
+    padding-top: @pad-top;
+    padding-bottom: @pad-bot;
+}
+
+.boton(@size,@bgcolor){
+    background-color: @bgcolor;
+    font-size: @size;
+}
