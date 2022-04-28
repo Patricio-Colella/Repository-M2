@@ -1,0 +1,49 @@
+.card{
+    border-radius: 1rem;
+    width: 20%;
+    border: 0.3rem solid black; 
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;  
+}
+.divg{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;  
+}
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.div button{
+    margin-top: 2rem;
+    border: 0.1rem solid rgb(101, 0, 0);
+    border-radius: 1rem;
+    background-color: orange;
+}
+
+.div img{
+    margin-bottom: 1rem;
+    border: 0.1rem solid rgb(101, 0, 0);
+    border-radius: 1rem;
+    background-color: orange;
+}
+
+.div h1{
+    color:black;
+    font-style: italic;
+    text-decoration:underline orange double;
+}
+
+.div p{
+    color:rgb(82, 82, 82);
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+}
+.divt{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;  
+}    
