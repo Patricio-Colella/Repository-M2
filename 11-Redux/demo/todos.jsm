@@ -1,6 +1,4 @@
-const redux = require('redux');
-
-const createStore = redux.createStore;
+const { configureStore } = require("@reduxjs/toolkit");
 
 const ADD_TODO = 'ADD_TODO'
 const REMOVE_TODO = 'REMOVE_TODO';
@@ -25,7 +23,7 @@ const rootReducer = (state = initialState, action) => {
   }
 }
 
-const store = createStore(rootReducer);
+const store = configureStore({reducer:rootReducer});
 
 store.subscribe(() => {
   console.log('Subscription: ', store.getState());
